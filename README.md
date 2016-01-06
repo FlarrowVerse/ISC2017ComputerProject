@@ -11,7 +11,7 @@ The 20 programs assigned to us are:
 4. Palindrome
 5. Automorphic Numbers
 6. Bubble Sort and Linear Search
-7. Sorting an `m &times; n` matrix row-wise
+7. Sorting an `m × n` matrix row-wise
 8. Matrix multiplication
 9. Spiral Matrix
 10. Polynomial Addition
@@ -19,7 +19,7 @@ The 20 programs assigned to us are:
 12. Queue
 13. Infix to Postfix Converter
 14. Point
-15. (Linear/Binary) Search on Class Object - *Confusion* persists
+15. (Linear/Binary) Search on Class Object - *Confusion persists*
 16. Recursive Base Changer
 17. Student
 18. Lexicographical sorting of words in a sentence
