@@ -19,7 +19,7 @@ The 20 programs assigned to us are:
 12. Queue
 13. Infix to Postfix Converter
 14. Point
-15. Linear Search on Class Object
+15. (Linear/Binary) Search on Class Object - *Confusion* persists
 16. Recursive Base Changer
 17. Student
 18. Lexicographical sorting of words in a sentence
