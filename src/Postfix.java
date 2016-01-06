@@ -1,7 +1,8 @@
 import java.util.Scanner;
 
 /**
- * This class provides the functionality to
+ * This class provides the functionality to convert an regular expression, in
+ * the infix notation to postfix notation.
  */
 public class Postfix {
     private char[] stack;
@@ -109,6 +110,6 @@ public class Postfix {
                 postfix.push(c);
             }
         }
-        System.out.println(b);
+        System.out.println("The expression in postfix notation is : " + b);
     }
 }
