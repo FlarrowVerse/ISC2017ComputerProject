@@ -1,0 +1,37 @@
+/**
+ * This class displays the words of a sentence according to a pattern.
+ */
+public class pattern {
+    /**
+     * The main() method displays the Sentnce according to a pattern.
+     */
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);// object of Scanner class: to take input from user
+        System.out.println("Enter a Sentence :");
+        String s = sc.nextLine();// input of sentence
+        s = s.trim();// removing extra whitespaces from front and back of the String
+        int l = 0, c = 0;
+        char[] pattern = {'?', '#', '%'};// required series
+        while (l * l < s.length()) l++;// loop to find out the size of the required square matrix
+        char[][] a = new char[l][l];// memory allocation for a character matrix to store the required pattern
+        l = 0;
+        for (int i = 0; i < a.length; i++) {// loop to control row number
+            for (int j = 0; j < a.length; j++) {// loop to control column number
+                if (c < s.length()) {// condition to decide wether length of String has been excceded or not
+                    char ch = s.charAt(c++);
+                    if (ch == 32 || ch == '.') a[i][j] = '"';// for whitespace
+                    else a[i][j] = pattern[l++];// for other letters
+                    if (l == 3) l = 0;
+                } else a[i][j] = '~';// for left out spaces in the matrix
+            }
+        }
+        System.out.println("The required Pattern :");
+        // display of required pattern
+        for (int i = 0; i < a.length; i++) {
+            for (int j = 0; j < a.length; j++) {
+                System.out.print(a[i][j] + "\t");
+            }
+            System.out.println();
+        }
+    }// end of main()
+}// end of class pattern
