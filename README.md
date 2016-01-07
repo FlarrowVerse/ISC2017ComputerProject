@@ -15,7 +15,7 @@ The 20 programs assigned to us are:
 8. Matrix multiplication (MatrixMultiplication.java)
 9. Spiral Matrix (SpiralMatrix.java)
 10. Polynomial Addition (PolynomialAddition.java)
-11. Stack (Stack.java)
+11. Stack (Stack.javakjb)
 12. Queue (Queue.java)
 13. Infix to Postfix Converter (Postfix.java)
 14. Point (Point.java)
